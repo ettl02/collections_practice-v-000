@@ -4,7 +4,6 @@ def sort_array_asc (int)
    end
  end
 
-def sort_array_desc (high_low_int)
-  high_low_int.sort! {|x, y| y <=> x}
-  puts high_low_int
+def sort_array_desc (numbers)
+  numbers.sort! {|x, y| y <=> x}
 end
