@@ -7,3 +7,7 @@ def sort_array_asc (int)
 def sort_array_desc (numbers)
   numbers.sort! {|x, y| y <=> x}
 end
+
+def sort_array_char_count (array)
+  result = array.sort {|left, right| left.length <=> right.length}
+end 
