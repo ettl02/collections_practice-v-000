@@ -16,5 +16,3 @@ def swap_elements (swap)
   swap.sort do |1, 2|
     swap [1], swap [2] = swap [2], swap [1]
   end
-
-  
